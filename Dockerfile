@@ -20,4 +20,4 @@ ENV PORT 8080 # חשוב: Cloud Run מצפה שהשרת יאזין לפורט 80
 EXPOSE 8080
 
 # פקודת ההפעלה של השרת
-CMD ["node", "chatbot.js"] 
+CMD ["node", "chatBot.js"] 
