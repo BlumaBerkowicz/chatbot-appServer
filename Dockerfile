@@ -1,5 +1,5 @@
 # שימוש בתמונת בסיס רשמית של Node.js
-FROM node:18-alpine # ניתן לשנות לגרסה אחרת (לדוגמה: node:20-alpine)
+FROM node:18-alpine 
 
 # הגדרת תיקיית העבודה בתוך הקונטיינר
 WORKDIR /app
@@ -20,4 +20,4 @@ ENV PORT 8080 # חשוב: Cloud Run מצפה שהשרת יאזין לפורט 80
 EXPOSE 8080
 
 # פקודת ההפעלה של השרת
-CMD ["node", "chatbot.js"] # החלף "server.js" בקובץ הראשי שמפעיל את השרת שלך
+CMD ["node", "chatbot.js"] 
