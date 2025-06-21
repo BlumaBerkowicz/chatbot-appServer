@@ -14,7 +14,8 @@ RUN npm install --production
 COPY . .
 
 # הגדרת משתנה סביבה עבור הפורט שהשרת יקשיב לו
-ENV PORT 8080 # חשוב: Cloud Run מצפה שהשרת יאזין לפורט 8080
+ENV PORT 8080 
+# חשוב: Cloud Run מצפה שהשרת יאזין לפורט 8080
 
 # חשיפת הפורט (הצהרה בלבד, Cloud Run מטפל בניתוב)
 EXPOSE 8080
